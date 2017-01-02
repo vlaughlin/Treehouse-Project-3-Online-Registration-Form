@@ -1,0 +1,31 @@
+/*  default margin removal */
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0
+}
+
+h1 {
+	margin: 0;
+	padding: 0
+}
+
+
+/*  header color */
+
+header {
+	background: #2d3945;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+
+/* header text */
+
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 23px;
+}
