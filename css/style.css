@@ -121,3 +121,14 @@ button {
 	margin-bottom: 10px;
 }
 
+/*horizontal rules*/
+
+hr.style1{
+	border-top: 3px solid #000;
+}
+
+hr.style2 {
+	border-top: 8px double #000;
+}
+
+
