@@ -1,12 +1,65 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
 	<title>The Code Review</title>
 	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
+	<header>
+		<h1>THE CODE REVIEW</h1>
+	</header>
+
+
+	<h2>Signup for our newsletter</h2>
+
+
+	<h3>Get the latest news on how your code is doing right in your inbox</h3>
+
+
+	<form>
+		<h2>Contact Information</h2>
+		<label for="name">Full Name:</label> <input id="name" name="user_name" type="text"> <label for="mail">Email Address:</label> <input id="mail" name="user_email" type="email"> <label for="phonenumber">Phone Number:</label> <input id="phonenumber" name="user_phonenumber" type="phonenumber"> <label for="streetaddress">Street Address:</label> <input id="streetaddress" name="user_streetaddress" type="streetaddress"> <label for="city">City:</label> <input id="city" name="user_city" type="city"> <label for="state">State:</label> <select id="state" name="user_state">
+			<option value="state1">
+				State
+			</option>
+
+			<option value="state2">
+				State
+			</option>
+
+			<option value="state3">
+				State
+			</option>
+
+			<option value="state4">
+				State
+			</option>
+
+			<option value="state5">
+				State
+			</option>
+
+			<option value="state6">
+				State
+			</option>
+		</select> <label for="zipcode">Zipcode:</label> <input id="zipcode" name="user_zipcode" type="zipcode">
+
+		<h2>Newsletter</h2>
+		<label>Select the newsletters you would like to recieve</label> <input id="htmlnews" name="user_newsletter" type="checkbox" value="html_news"> <label class="light" for="htmlnews">HTML News</label><br>
+		<input id="cssnews" name="user_newsletter" type="checkbox" value="css_news"> <label class="light" for="cssnews">CSS News</label><br>
+		<input id="javascriptnews" name="user_newsletter" type="checkbox" value="javascript_news"> <label class="light" for="javascriptnews">Javascript News</label><br>
+		<label>Newsletter Format</label> <input id="html" name="user_format" type="radio" value="html"><label class="light" for="html">HTML</label><br>
+		<input id="plaintext" name="user_age" type="radio" value="plaintext"><label class="light" for="plaintext">Plain Text</label> <label for="topics">Other topics you'd like to hear about</label> 
+
+		<textarea id="topics" name="usertopics"></textarea> <button type="submit">Sign Up</button>
+
+		<p>Copywright The Code Review</p>
+	</form>
 </body>
 </html>

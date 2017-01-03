@@ -3,12 +3,12 @@
 body {
 	height: 100%;
 	margin: 0;
-	padding: 0
+	padding: 0;
 }
 
 h1 {
 	margin: 0;
-	padding: 0
+	padding: 0;
 }
 
 
@@ -29,3 +29,22 @@ h1 {
 	color: white;
 	font-size: 23px;
 }
+
+/* Signup Info*/
+
+h2 {
+   text-align: center;
+   
+}
+
+h3 {
+   text-align: center;
+     color: #b1b5b9;
+     font-size: 21px;
+
+  
+}
+
+
+
+
