@@ -1,10 +1,17 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /*form*/
 
-form {
-	max-width: 300px;
-	margin: 10px auto;
-	padding: 10px 20px;
-	border-radius: 8px;
+
+
+form{
+  max-width: 300px;
+  margin: 0 auto;
+    
 }
 
 
@@ -45,19 +52,6 @@ select {
 }
 
 
-/*  default margin removal */
-
-body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-}
-
-h1 {
-	margin: 0;
-	padding: 0;
-}
-
 
 /*  header color */
 
@@ -84,11 +78,12 @@ h2 {
 	text-align: center;
 }
 
-h3 {
-	text-align: center;
-	color: #b1b5b9;
-	font-size: 21px;
+p {
+  text-align: center;
+  font-size: 15px;
+  color: #b1b5b9;
 }
+
 
 
 /*labels*/
@@ -129,6 +124,7 @@ hr.style1{
 
 hr.style2 {
 	border-top: 8px double #000;
+    
 }
 
 
