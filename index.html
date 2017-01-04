@@ -7,7 +7,9 @@
 
 	<title>The Code Review</title>
 	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+     <link href="css/normalize.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+   
 </head>
 
 <body>
@@ -19,15 +21,15 @@
 	<h2>Signup for our newsletter</h2>
 
 
-	<h3>Get the latest news on how your code is doing right in your inbox</h3>
+    <p>Get the latest news on how your code is doing right in your inbox</p>
 
 
 	<form>
         
         <hr class="style2">
         
-		<h2>Contact Information</h2>
-		<label for="name">Full Name:</label> <input id="name" name="user_name" type="text"> <label for="mail">Email Address:</label> <input id="mail" name="user_email" type="email"> <label for="phonenumber">Phone Number:</label> <input id="phonenumber" name="user_phonenumber" type="phonenumber"> <label for="streetaddress">Street Address:</label> <input id="streetaddress" name="user_streetaddress" type="streetaddress"> <label for="city">City:</label> <input id="city" name="user_city" type="city"> <label for="state">State:</label> <select id="state" name="user_state">
+		<legend>Contact Information</legend>
+		<label for="name">Full Name</label> <input id="name" name="user_name" type="text"> <label for="mail">Email Address</label> <input id="mail" name="user_email" type="email"> <label for="phonenumber">Phone Number</label> <input id="phonenumber" name="user_phonenumber" type="phonenumber"> <label for="streetaddress">Street Address</label> <input id="streetaddress" name="user_streetaddress" type="streetaddress"> <label for="city">City</label> <input id="city" name="user_city" type="city"> <label for="state">State</label> <select id="state" name="user_state">
 			<option value="state1">
 				State
 			</option>
@@ -51,11 +53,11 @@
 			<option value="state6">
 				State
 			</option>
-		</select> <label for="zipcode">Zipcode:</label> <input id="zipcode" name="user_zipcode" type="zipcode">
+		</select> <label for="zipcode">Zipcode</label> <input id="zipcode" name="user_zipcode" type="zipcode">
         
         <hr class="style1">
 
-		<h2>Newsletter</h2>
+		<legend>Newsletter</legend>
 		<label>Select the newsletters you would like to recieve</label> <input id="htmlnews" name="user_newsletter" type="checkbox" value="html_news"> <label class="light" for="htmlnews">HTML News</label><br>
 		<input id="cssnews" name="user_newsletter" type="checkbox" value="css_news"> <label class="light" for="cssnews">CSS News</label><br>
 		<input id="javascriptnews" name="user_newsletter" type="checkbox" value="javascript_news"> <label class="light" for="javascriptnews">Javascript News</label><br><br>
@@ -66,7 +68,7 @@
 
 		<textarea id="topics" name="usertopics"></textarea> <button type="submit">Sign Up</button>
 
-		<p>Copywright The Code Review</p>
+		<span>Copywright The Code Review</span>
 	</form>
 </body>
 </html>
