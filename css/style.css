@@ -57,12 +57,21 @@ input[type="zipcode"] {
 
 }
 
+fieldset {
+        border: 0 none;
+    }
+
+input:focus, textarea:focus {
+    background-color: #B0EBF2;
+    border: 2px solid #8a97a0;
+}
+
 
 /*styles for placeholder text*/
 
 ::-webkit-input-placeholder {
     color: gray;
-    text-indent: 190px;
+    text-indent: 170px;
     font-size:13px;
     font-style: italic;
    
@@ -72,7 +81,7 @@ input[type="zipcode"] {
 
 :-moz-placeholder { /* Firefox 18- */
    color: gray;
-   text-indent: 190px;
+   text-indent: 170px;
    font-size:13px;
    font-style: italic;
    
@@ -80,7 +89,7 @@ input[type="zipcode"] {
 
 ::-moz-placeholder {  /* Firefox 19+ */
    color: gray;
-   text-indent: 190px;
+   text-indent: 170px;
    font-size:13px;
    font-style: italic;
    
@@ -88,7 +97,7 @@ input[type="zipcode"] {
 
 :-ms-input-placeholder {  
    color: gray;
-   text-indent: 190px;
+   text-indent: 170px;
    font-size:13px;
    font-style: italic;
    
@@ -98,7 +107,7 @@ input[type="zipcode"] {
 /*  header color */
 
 header {
-	background: #2d3945;
+	background: #38B4C1;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
@@ -156,13 +165,13 @@ label.light {
 button {
 	padding: 19px 39px 18px 39px;
 	color: #FFF;
-	background-color: #4ebbb5;
+	background-color: #38B4C1;
 	font-size: 18px;
 	text-align: center;
 	font-style: normal;
 	border-radius: 5px;
 	width: 100%;
-	border: 1px solid #4ebbb5;
+	border: 1px solid #28C0C6;
 	border-width: 1px 1px 3px;
 	box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
 	margin-bottom: 10px;
@@ -189,6 +198,7 @@ hr.style2 {
  padding: 20px;
 
 }
+
 
 
 
