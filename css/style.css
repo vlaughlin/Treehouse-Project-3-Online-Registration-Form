@@ -1,10 +1,13 @@
+/*BOX-SIZING*/
+
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/*form*/
+/*FORM POSITIONING AND WIDTH*/
 
 
 
@@ -15,7 +18,7 @@ form{
 }
 
 
-/*fields*/
+/*FIELD CUSTOM STYLES AND PROPERTIES*/
 
 input[type="text"],
 input[type="email"],
@@ -67,7 +70,7 @@ input:focus, textarea:focus {
 }
 
 
-/*styles for placeholder text*/
+/*STYLES FOR PLACEHOLDER TEXT FOR DIFFERENT BROWSERS*/
 
 ::-webkit-input-placeholder {
     color: gray;
@@ -104,7 +107,7 @@ input:focus, textarea:focus {
 }
 
 
-/*  header color */
+/*  HEADER BACKGROUND COLOR AND POSITION */
 
 header {
 	background: #38B4C1;
@@ -114,7 +117,7 @@ header {
 }
 
 
-/* header text */
+/* HEADER TEXT STYLES */
 
 h1 {
 	text-align: center;
@@ -123,7 +126,7 @@ h1 {
 }
 
 
-/* Signup Info*/
+/* CUSTOMIZATION FOR FORM TEXT*/
 
 h2 {
 	text-align: center;
@@ -146,8 +149,7 @@ legend {
 }
 
 
-
-/*labels*/
+/*LABELS*/
 
 label {
 	display: block;
@@ -160,7 +162,7 @@ label.light {
 }
 
 
-/*button*/
+/*BUTTON STYLES*/
 
 button {
 	padding: 19px 39px 18px 39px;
@@ -177,7 +179,7 @@ button {
 	margin-bottom: 10px;
 }
 
-/*horizontal rules*/
+/*HORIZONTAL RULES*/
 
 hr.style1{
 	border-top: 3px solid #000;
@@ -188,7 +190,7 @@ hr.style2 {
     
 }
 
-/*copywright text */
+/*COPYRIGHT TEXT IN FOOTER */
 
 .copyright {
  text-align: center;
