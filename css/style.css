@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-/*FORM POSITIONING AND WIDTH*/
+/*FORM*/
 
 
 
@@ -18,7 +18,7 @@ form{
 }
 
 
-/*FIELD CUSTOM STYLES AND PROPERTIES*/
+/*FIELDS*/
 
 input[type="text"],
 input[type="email"],
@@ -55,7 +55,7 @@ select {
 	border-radius: 2px;
 }
 
-input[type="zipcode"] {
+#zipcode {
     width: 50%;
 
 }
@@ -70,7 +70,7 @@ input:focus, textarea:focus {
 }
 
 
-/*STYLES FOR PLACEHOLDER TEXT FOR DIFFERENT BROWSERS*/
+/*PLACEHOLDER*/
 
 ::-webkit-input-placeholder {
     color: gray;
@@ -107,7 +107,7 @@ input:focus, textarea:focus {
 }
 
 
-/*  HEADER BACKGROUND COLOR AND POSITION */
+/*HEADER*/
 
 header {
 	background: #38B4C1;
@@ -117,7 +117,7 @@ header {
 }
 
 
-/* HEADER TEXT STYLES */
+/* HEADER TEXT*/
 
 h1 {
 	text-align: center;
@@ -126,7 +126,7 @@ h1 {
 }
 
 
-/* CUSTOMIZATION FOR FORM TEXT*/
+/*FORM TEXT*/
 
 h2 {
 	text-align: center;
@@ -162,7 +162,7 @@ label.light {
 }
 
 
-/*BUTTON STYLES*/
+/*BUTTON*/
 
 button {
 	padding: 19px 39px 18px 39px;
@@ -190,7 +190,7 @@ hr.style2 {
     
 }
 
-/*COPYRIGHT TEXT IN FOOTER */
+/*COPYRIGHT*/
 
 .copyright {
  text-align: center;
@@ -201,7 +201,50 @@ hr.style2 {
 
 }
 
+/*MEDIAQUERIES*/
+
+@media (min-width: 768px) {
+    
+    form {
+         min-width: 500px;
+        
+    }
+    
+    input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	select#state {
+		width: 70%;
+		display: inline-block;
+	}
+    
+    
+    ::-webkit-input-placeholder {
+        text-indent: 500px;
 
 
+    }
+    
+    #zipcode {
+     width: 35%;
+         
+
+    }
+    
+ .form-contact label {
+      display: inline-block;
+		text-align: left;
+		width: 26%;
+		margin: 10px 0 5px;
+		
+
+
+
+    }
+    
+}
+    
+
+ 
 
 
