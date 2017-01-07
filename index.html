@@ -9,12 +9,16 @@
 	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 	<link href="css/normalize.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
-	<header>
-		<h1>THE CODE REVIEW</h1>
-	</header>
+	
+    <header>
+		
+        <h1>THE CODE REVIEW</h1>
+	
+    </header>
 
 
 	<h2>Signup for our newsletter</h2>
@@ -32,6 +36,8 @@
 		<fieldset>
 			
             <legend>Contact Information</legend> 
+            
+            <div class="form-contact">
             
             <label for="name">Full Name</label> 
             <input type="text" id="name" name="user_name" placeholder="Required"> 
@@ -306,26 +312,41 @@
             <label for="zipcode">Zipcode</label> 
             <input type="text" id="zipcode" name="user_zipcode">
 		
+            </div>
+                
         </fieldset>
 
 		<hr class="style1">
 
 
 		<fieldset>
-			<legend>Newsletter</legend> 
+            
+            <legend>Newsletter</legend> 
+            
+            <div class="newsletter">
+            
             <label>Select the newsletters you would like to recieve</label> 
             
             <input id="htmlnews" name="user_newsletter" type="checkbox" value="html_news"> <label class="light" for="htmlnews">HTML News</label><br>
+            
 			<input id="cssnews" name="user_newsletter" type="checkbox" value="css_news"> <label class="light" for="cssnews">CSS News</label><br>
-			<input id="javascriptnews" name="user_newsletter" type="checkbox" value="javascript_news"> <label class="light" for="javascriptnews">Javascript News</label><br>
-			<br>
-			<label>Newsletter Format</label> 
+			
+            <input id="javascriptnews" name="user_newsletter" type="checkbox" value="javascript_news"> <label class="light" for="javascriptnews">Javascript News</label><br>
+			
+            <br>
+			
+            <label>Newsletter Format</label> 
+            
             <input id="html" name="user_format" type="radio" value="html"><label class="light" for="html">HTML</label><br>
+            
 			<input id="plaintext" name="user_age" type="radio" value="plaintext"><label class="light" for="plaintext">Plain Text</label><br>
-			<br>
+			
+            <br>
 			<label for="topics">Other topics you'd like to hear about</label> 
 
 			<textarea id="topics" name="usertopics"></textarea> <button type="submit">Sign Up</button>
+                
+                </div>
 		</fieldset>
 	</form>
 
