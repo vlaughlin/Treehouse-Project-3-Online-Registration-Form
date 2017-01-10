@@ -220,7 +220,10 @@ hr.style2 {
     
     
     ::-webkit-input-placeholder {
-        text-indent: 500px;
+         color: gray;
+         text-indent: 230px;
+         font-size:13px;
+         font-style: italic;
 
 
     }
@@ -244,7 +247,3 @@ hr.style2 {
     
 }
     
-
- 
-
-
