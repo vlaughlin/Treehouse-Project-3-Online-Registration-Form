@@ -22,7 +22,7 @@ form{
 
 input[type="text"],
 input[type="email"],
-input[type="phonenumber"],
+input[type="tel"],
 input[type="streetaddress"],
 input[type="city"],
 input[type="state"],
